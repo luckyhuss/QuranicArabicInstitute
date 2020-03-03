@@ -4,7 +4,7 @@
 	require_once('class/document.php');
 
 	# get file name
-	$encryptedFile = urldecode($_GET["file"]);
+	$encryptedFile = $_GET["file"];
 	
 	# create a new Document object
 	$document = new Document();
