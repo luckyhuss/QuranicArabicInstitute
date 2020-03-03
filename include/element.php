@@ -86,7 +86,7 @@
 								<div id="collapse-chapter-<?php echo $docCount; ?>" class="collapse" aria-labelledby="heading-chapter-<?php echo $docCount; ?>" data-parent="#accordion1">
 									<div class="panel-body">
 										<p><?php echo $value->getDescription(); ?></p>
-										<a href="/download?f=<?php echo $value->getFile(); ?>" class="site-btn sb-dark mr-3 mb-3" target="_self">Download (<i>Size : <?php echo $value->getFileSize(); ?></i>)</a>
+										<a href="/download?file=<?php echo urlencode($value->encryptFile()); ?>" class="site-btn sb-dark mr-3 mb-3" target="_self">Download (<i>Size : <?php echo $value->getFileSize(); ?></i>)</a>																				
 									</div>
 								</div>
 							</div>
@@ -107,7 +107,7 @@
 								<div id="collapse-chapter-<?php echo $docCount; ?>" class="collapse" aria-labelledby="heading-chapter-<?php echo $docCount; ?>" data-parent="#accordion2">
 									<div class="panel-body">
 										<p><?php echo $value->getDescription(); ?></p>
-										<a href="/download?f=<?php echo $value->getFile(); ?>" class="site-btn sb-dark mr-3 mb-3" target="_self">Download (<i>Size : <?php echo $value->getFileSize(); ?></i>)</a>
+										<a href="/download?file=<?php echo urlencode($value->encryptFile()); ?>" class="site-btn sb-dark mr-3 mb-3" target="_self">Download (<i>Size : <?php echo $value->getFileSize(); ?></i>)</a>
 									</div>
 								</div>
 							</div>
