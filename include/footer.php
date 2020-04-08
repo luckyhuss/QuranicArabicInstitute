@@ -13,6 +13,17 @@
 		</div>
 	</footer>
 
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11010949-5"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-11010949-5');
+	</script>
+
 	<?php
 	// <!-- Search model -->
 	// <div class="search-model">
