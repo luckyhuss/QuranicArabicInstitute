@@ -35,7 +35,7 @@
 					<div class="contact-text">						
 						<h2>Get in Touch</h2>
 						<p>You can reach the Director of Quranic Arabic Institute, Anwar Buchoo, at the following WhatsApp number or email address.
-							<br/><br/>Classro om sessions are delivered at Sir Abdool Razack Mohamed Center, Phoenix on Saturday afternoons.</p>							
+							<br/><br/>Classroom sessions are delivered at Sir Abdool Razack Mohamed Center, Phoenix on Saturday afternoons.</p>							
 					</div>
 				</div>
 				<div class="col-lg-4">

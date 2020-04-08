@@ -5,6 +5,7 @@
 	$csvFilename = '';
 	$pageTitle = '';
 	$elementTitle = 'chapter';
+	$level = '1';
 
 	# dpocuments menu underlined
 	if(strpos($uri, "/notes") !== false){
@@ -16,6 +17,7 @@
 	} elseif (strpos($uri, "/selection") !== false) {
 		$csvFilename = 'selection';
 		$elementTitle = 'selections';
+		$level = '2';
 	} elseif (strpos($uri, "/answerbook") !== false) {
 		$csvFilename = 'answerbook';
 	}
@@ -70,7 +72,7 @@
 
 ?>
 <div class="element">
-				<h3 class="el-title">Click on the <?php echo $elementTitle; ?> to download QA <?php echo $pageTitle; ?> - Level 1</h3>
+				<h3 class="el-title">Click on the <?php echo $elementTitle; ?> to download QA <?php echo $pageTitle; ?> - Level <?php echo $level ?></h3>
 				<div class="row">
 					<div class="col-xl-6">
 						<!-- Accordion 1 -->
