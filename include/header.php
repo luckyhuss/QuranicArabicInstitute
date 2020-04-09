@@ -48,6 +48,7 @@
 							<li><a href="selection">Selection</a></li>
 							<li><a href="answerbook">Answerbook</a></li>
 							<li><a href="mocktest">Mock Test</a></li>
+							<li><a href="https://ejtaal.net/aa" target="_blank">Hans Wehr Dictionary</a></li>
 						</ul>
 					</li>
 					<li <?php echo $videosActive; ?>><a href="videos">Videos</a></li>
