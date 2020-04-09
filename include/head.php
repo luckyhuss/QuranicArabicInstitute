@@ -18,6 +18,8 @@
 		$pageTitle = 'Ayah Selection';
 	} elseif (strpos($uri, "/answerbook") !== false) {
 		$pageTitle = 'Answerbook';
+	} elseif (strpos($uri, "/mocktest") !== false) {
+		$pageTitle = 'Mock Test';
 	} elseif (strpos($uri, "/videos") !== false) {
 		$pageTitle = 'Videos';
 	} elseif (strpos($uri, "/about") !== false) {

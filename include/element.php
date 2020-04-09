@@ -14,12 +14,17 @@
 		$csvFilename = 'textbook';
 	} elseif (strpos($uri, "/workbook") !== false) {
 		$csvFilename = 'workbook';
+		$elementTitle = 'worksheet';
 	} elseif (strpos($uri, "/selection") !== false) {
 		$csvFilename = 'selection';
-		$elementTitle = 'selections';
+		$elementTitle = 'selection';
 		$level = '2';
 	} elseif (strpos($uri, "/answerbook") !== false) {
 		$csvFilename = 'answerbook';
+	} elseif (strpos($uri, "/mocktest") !== false) {
+		$csvFilename = 'mocktest';
+		$elementTitle = 'specimen';
+		$level = '1 & 2';
 	}
 
 	// set page title

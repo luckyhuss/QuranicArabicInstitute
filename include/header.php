@@ -5,7 +5,7 @@
 	# home menu underlined
 	$homeActive = strlen($uri) == 1 ? $active : '';
 	# documents menu underlined
-	$documentsActive = strpos($uri, "/notes") !== false || strpos($uri, "/textbook") !== false || strpos($uri, "/workbook") !== false || strpos($uri, "/answerbook") !== false || strpos($uri, "/selection") !== false ? $active : '';
+	$documentsActive = strpos($uri, "/notes") !== false || strpos($uri, "/textbook") !== false || strpos($uri, "/workbook") !== false || strpos($uri, "/answerbook") !== false || strpos($uri, "/selection") !== false || strpos($uri, "/mocktest") !== false ? $active : '';
 	# videos menu underlined
 	$videosActive = strpos($uri, "/videos") !== false ? $active : '';
 	# about menu underlined
@@ -47,6 +47,7 @@
 							<li><a href="workbook">Workbook</a></li>
 							<li><a href="selection">Selection</a></li>
 							<li><a href="answerbook">Answerbook</a></li>
+							<li><a href="mocktest">Mock Test</a></li>
 						</ul>
 					</li>
 					<li <?php echo $videosActive; ?>><a href="videos">Videos</a></li>
