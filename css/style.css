@@ -63,6 +63,14 @@
    line-height: 2;
  }
  
+ .small-title {
+   font-size: 14px;
+   color: #d11141;
+   font-style: italic;
+   font-weight: bold;
+   display: block;
+ }
+ 
  img {
    max-width: 100%;
  }

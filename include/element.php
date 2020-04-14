@@ -77,7 +77,7 @@
 
 ?>
 <div class="element">
-				<h3 class="el-title">Click on the <?php echo $elementTitle; ?> to download QA <?php echo $pageTitle; ?> - Level <?php echo $level ?></h3>
+				<h3 class="el-title">Click on the <?php echo $elementTitle; ?> to download QA <?php echo $pageTitle; ?> — Level <?php echo $level ?> <span class="small-title">** Copyrighted materials **</span></h3>
 				<div class="row">
 					<div class="col-xl-6">
 						<!-- Accordion 1 -->

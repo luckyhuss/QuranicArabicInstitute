@@ -69,7 +69,7 @@
 		<div class="container">
 			<div class="client-text">
 				<h2>Learning and understanding Al Quran efficiently</h2>
-				<p>This Quranic Arabic online course is designed for people with a little background in Arabic (should be able to read Arabic words).
+				<p>This Quranic Arabic online course (Mauritius) is designed for people with a little background in Arabic (should be able to read Arabic words).
 				The systematic approach of this course has been developed and fine-tuned over several years. 
 				All the notes are prepared by the tutor. A textbook and workbook are available.</p>
 			</div>
