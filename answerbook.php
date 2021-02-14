@@ -30,9 +30,37 @@
 	<!-- Elements section  -->
 	<section class="elements-section spad">
 		<div class="container">
+			
+
+			<?php
+				$pass = $_POST['pass'];
+
+				if($pass == "qa2021")
+				{
+						include("include/element.php");
+				}
+				else
+				{
+					if(isset($_POST))
+					{?>
+							<p>Enter your password to get access to these materials</p>
+							<?php if($pass != '') {
+							?>
+								<p class="small-title">Incorrect password, please try again</p>
+							<?}?>
+							<div class="col-lg-3">
+								<form method="POST" action="" class="contact-form">
+								<input type="password" placeholder="Password" name="pass"></input><br/>
+								<input type="submit" name="submit" value="Get Access" class="site-btn sb-dark"></input>
+								</form>
+							</div>
+					<?}
+				}
+			?>
+
+
 			<!-- Element section -->
 			<?php #include 'include/element.php';?>
-			<p>Work in Progress. Coming soon .. :-)</p>
 			<!-- Element section  end -->
 	</section>
 	<!-- Elements section end  -->
