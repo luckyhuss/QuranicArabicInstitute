@@ -28,13 +28,22 @@
 	<!-- Page top section end  -->
 
 	<!-- Elements section  -->
+	<!-- <section class="elements-section spad"> -->
+		<!-- <div class="container"> -->
+			<!-- Element import -->
+			<? //php include 'include/element.php';?>
+			<!-- Element import  end -->
+	<!-- </section> -->
+	<!-- Elements section end  -->
+
+	<!-- Copyright section   -->
 	<section class="elements-section spad">
 		<div class="container">
-			<!-- Element section -->
-			<?php include 'include/element.php';?>			
-			<!-- Element section  end -->
+			<!-- Copyright import -->
+			<?php include 'include/copyright.php';?>
+			<!-- Copyright import  end -->
 	</section>
-	<!-- Elements section end  -->
+	<!-- Copyright section end  -->
 
 	<!-- Call to action section  -->
 	<?php include 'include/action.php';?>

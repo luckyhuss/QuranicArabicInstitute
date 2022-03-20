@@ -50,7 +50,7 @@
 							<?}?>
 							<div class="col-lg-3">
 								<form method="POST" action="" class="contact-form">
-								<input type="password" placeholder="Password" name="pass"></input><br/>
+								<input type="password" placeholder="Password" name="pass" maxlength="10"></input><br/>
 								<input type="submit" name="submit" value="Get Access" class="site-btn sb-dark"></input>
 								</form>
 							</div>
