@@ -35,7 +35,7 @@
 			<?php
 				$pass = $_POST['pass'];
 
-				if($pass == "qa2021")
+				if($pass == "qa_2021")
 				{
 						include("include/element.php");
 				}

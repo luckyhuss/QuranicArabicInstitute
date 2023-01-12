@@ -28,21 +28,23 @@
 	<!-- Page top section end  -->
 
 	<!-- Elements section  -->
-	<!-- <section class="elements-section spad"> -->
-		<!-- <div class="container"> -->
+	<section class="elements-section spad">
+		<div class="container">
 			<!-- Element import -->
-			<? //php include 'include/element.php';?>
+			<?php include 'include/element.php';?>
 			<!-- Element import  end -->
-	<!-- </section> -->
+		</div>
+	</section>
 	<!-- Elements section end  -->
 
 	<!-- Copyright section   -->
-	<section class="elements-section spad">
-		<div class="container">
+	<!-- <section class="elements-section spad"> -->
+		<!-- <div class="container"> -->
 			<!-- Copyright import -->
-			<?php include 'include/copyright.php';?>
+			<?//php include 'include/copyright.php';?>
 			<!-- Copyright import  end -->
-	</section>
+		<!-- </div> -->
+	<!-- </section> -->
 	<!-- Copyright section end  -->
 
 	<!-- Call to action section  -->
