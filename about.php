@@ -70,7 +70,7 @@
 						</div>
 						<div class="milestone-text">
 							<span>Students</span>
-							<h2>95</h2>
+							<h2>135</h2>
 							<p>(classroom based) </p>
 						</div>
 					</div>
@@ -82,7 +82,7 @@
 						</div>
 						<div class="milestone-text">
 							<span>Experience</span>
-							<h2>4</h2>
+							<h2>7</h2>
 							<p>years of teaching </p>
 						</div>
 					</div>
