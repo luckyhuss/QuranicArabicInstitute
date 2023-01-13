@@ -19,7 +19,7 @@
 	header("Content-type:application/pdf");
 
 	# It will be called $fileName
-	header("Content-Disposition:attachment;filename='$fileName'");
+	header("Content-Disposition:attachment;filename=$fileName");
 
 	# The PDF source is in $filePath
 	readfile("$filePath");

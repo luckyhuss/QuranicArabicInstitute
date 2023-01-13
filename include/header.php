@@ -52,8 +52,8 @@
 						</ul>
 					</li>
 					<li <?php echo $videosActive; ?>><a href="videos">Videos</a></li>
-					<li <?php echo $aboutActive; ?>><a href="about">About</a></li>
 					<li <?php echo $contactActive; ?>><a href="contact">Contact</a></li>
+					<li <?php echo $aboutActive; ?>><a href="about">About</a></li>
 				</ul>
 			</nav>
 		</div>
